@@ -87,16 +87,17 @@ ul, ol { list-style: none; }
 
 .sister-links {
   display: flex;
-  gap: 24px;
+  gap: 12px;
   align-items: center;
 }
 .sister-links a {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--text-muted);
   transition: all 0.2s;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: var(--radius-sm);
+  white-space: nowrap;
 }
 .sister-links a:hover {
   color: var(--text-main);
