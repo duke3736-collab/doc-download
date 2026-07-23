@@ -585,66 +585,66 @@ const DOCS = [
   // ─── 법률·계약 ───────────────────────────────────────────────
   {
     id:39, cat:'legal', e:'⚖️',
-    title:'위임장·각종 법원 서식',
-    desc:'위임장, 소장, 각종 법원 서식 모음. 대법원 나홀로소송 서비스에서 다운로드.',
-    tags:['위임장','대리','법원서식'],
-    source:'대법원 나홀로소송',
-    url:'https://pro-se.scourt.go.kr/wsh/WshDsm0100.do',
-    kw:'위임장 대리 법률 위임 법원서식'
+    title:'위임장·각종 법원 양식모음',
+    desc:'위임장, 소장, 신청서 등 대법원 대민서비스 공식 법원 양식모음.',
+    tags:['위임장','대리','법원양식'],
+    source:'대법원 대민서비스',
+    url:'https://help.scourt.go.kr/nm/minwon/doc/DocListAction.work',
+    kw:'위임장 대리 법률 위임 법원서식 양식'
   },
   {
     id:40, cat:'legal', e:'✉️',
-    title:'내용증명 발송',
-    desc:'법적 분쟁 전 상대방에게 의사를 공식 전달하는 내용증명 우편 발송 서비스.',
+    title:'내용증명 발송 서비스',
+    desc:'법적 분쟁 전 상대방에게 의사를 공식 전달하는 인터넷우체국 내용증명 발송.',
     tags:['내용증명','우편','법적증명'],
-    source:'우체국 인터넷우체국',
-    url:'https://service.epost.go.kr/iservice/usr/cmm/login/EgovLoginForwardAction.do',
-    kw:'내용증명 우편 법적 분쟁 통지'
+    source:'인터넷우체국',
+    url:'https://www.epost.go.kr/',
+    kw:'내용증명 우편 법적 분쟁 통지 우체국'
   },
   {
     id:41, cat:'legal', e:'💸',
     title:'차용증·금전대차 서식',
-    desc:'개인 간 금전 대여 시 작성하는 차용증 양식. 대법원 나홀로소송에서 다운로드.',
+    desc:'개인 간 금전 대여 시 작성하는 차용증 및 계약 양식 (법무부 찾기쉬운 생활법령).',
     tags:['차용증','대여금','계약서'],
-    source:'대법원 나홀로소송',
-    url:'https://pro-se.scourt.go.kr/wsh/WshDsm0100.do',
-    kw:'차용증 금전 대여 빌려주기 계약서'
+    source:'찾기쉬운 생활법령정보',
+    url:'https://www.easylaw.go.kr/CSP/CspRttList.laf',
+    kw:'차용증 금전 대여 빌려주기 계약서 생활법령'
   },
   {
     id:42, cat:'legal', e:'🤝',
-    title:'합의서·각종 계약서 서식',
-    desc:'민사 분쟁·사고 처리 합의서 및 각종 계약서 양식. 대법원 나홀로소송 서비스 제공.',
-    tags:['합의서','분쟁해결','계약'],
-    source:'대법원 나홀로소송',
-    url:'https://pro-se.scourt.go.kr/wsh/WshDsm0100.do',
-    kw:'합의서 분쟁 해결 합의 계약'
+    title:'합의서·각종 서식모음',
+    desc:'민사 분쟁·사고 처리 합의서 및 각종 계약서 서식 (대한법률구조공단 서식자료실).',
+    tags:['합의서','분쟁해결','계약서'],
+    source:'대한법률구조공단',
+    url:'https://www.klac.or.kr/legalinfo/formSample.do',
+    kw:'합의서 분쟁 해결 합의 계약 법률구조공단'
   },
   {
     id:43, cat:'legal', e:'📄',
-    title:'무료 법률 서식 및 상담',
-    desc:'대한법률구조공단 무료 법률 서식 자료 및 법률 상담 서비스. 고소장 등 서식 제공.',
+    title:'고소장·무료 법률 서식자료실',
+    desc:'대한법률구조공단 무료 법률 서식 자료실. 고소장, 답변서, 탄원서 등 서식 제공.',
     tags:['법률구조','무료상담','고소장'],
     source:'대한법률구조공단',
     url:'https://www.klac.or.kr/legalinfo/formSample.do',
-    kw:'고소장 형사 고소 경찰 접수 무료법률'
+    kw:'고소장 형사 고소 경찰 접수 무료법률 답변서'
   },
   {
     id:44, cat:'legal', e:'🏛️',
     title:'지급명령 신청 (전자소송)',
-    desc:'소송 없이 법원을 통해 채무 변제를 요구하는 간이 절차. 대법원 전자소송에서 온라인 신청.',
+    desc:'소송 없이 법원을 통해 채무 변제를 요구하는 간이 절차. 대법원 전자소송 이용.',
     tags:['지급명령','법원','채무'],
     source:'대법원 전자소송',
-    url:'https://ecfs.scourt.go.kr/ecf/ecfMain/initCmnCrtInfoPage.do',
-    kw:'지급명령 신청서 법원 채무 빚'
+    url:'https://ecfs.scourt.go.kr/',
+    kw:'지급명령 신청서 법원 채무 빚 전자소송'
   },
   {
     id:45, cat:'legal', e:'🏠',
-    title:'임차권 등기명령 신청',
-    desc:'보증금 미반환 시 임차권 등기명령 신청. 대법원 전자소송에서 온라인 신청 가능.',
+    title:'임차권 등기명령 신청 (전자소송)',
+    desc:'보증금 미반환 시 임차권 등기명령 신청. 대법원 전자소송에서 온라인 신청.',
     tags:['임차권등기','보증금','전세사기'],
     source:'대법원 전자소송',
-    url:'https://ecfs.scourt.go.kr/ecf/ecfMain/initCmnCrtInfoPage.do',
-    kw:'임차권등기명령 보증금 미반환 전세사기'
+    url:'https://ecfs.scourt.go.kr/',
+    kw:'임차권등기명령 보증금 미반환 전세사기 전자소송'
   },
 
   // ─── 교육·자격 ───────────────────────────────────────────────
