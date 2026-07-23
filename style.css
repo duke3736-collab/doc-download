@@ -61,7 +61,7 @@ ul, ol { list-style: none; }
 /* ── Header (Topbar) ────────────────────────────── */
 .topbar {
   position: fixed;
-  top: 0; width: 100%; height: 72px;
+  top: 0; width: 100%; height: 96px;
   background: var(--bg-header);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -87,23 +87,30 @@ ul, ol { list-style: none; }
 
 .sister-links {
   display: flex;
-  gap: 8px;
+  gap: 12px;
   align-items: center;
+  overflow-x: auto;
+  max-width: 65%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.sister-links::-webkit-scrollbar {
+  display: none;
 }
 .sister-links a {
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 800;
   color: #334155;
   background: #f8fafc;
   border: 1px solid #e2e8f0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02), inset 0 -2px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.03), inset 0 -3px 0 rgba(0,0,0,0.06);
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 8px 14px;
-  border-radius: 20px;
+  padding: 14px 24px;
+  border-radius: 30px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
 }
 .sister-links a:hover {
   background: #ffffff;
