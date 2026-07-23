@@ -87,21 +87,26 @@ ul, ol { list-style: none; }
 
 .sister-links {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   align-items: center;
 }
 .sister-links a {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--text-muted);
-  transition: all 0.2s;
-  padding: 6px 10px;
-  border-radius: var(--radius-sm);
+  background: #ffffff;
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: all 0.2s var(--spring);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
   white-space: nowrap;
 }
 .sister-links a:hover {
-  color: var(--text-main);
-  background: #f1f5f9;
+  color: var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+  transform: translateY(-1px);
 }
 .live-badge {
   display: flex; align-items: center; gap: 8px;
