@@ -202,6 +202,13 @@ ul, ol { list-style: none; }
   background: #e5e7eb;
   color: var(--text-main);
 }
+.search-hint {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-top: 12px;
+  font-weight: 500;
+}
 
 /* ── Stats ──────────────────────────────────────── */
 .stats {
