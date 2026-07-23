@@ -84,6 +84,24 @@ ul, ol { list-style: none; }
 .logo span {
   color: var(--primary);
 }
+
+.sister-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.sister-links a {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: all 0.2s;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+}
+.sister-links a:hover {
+  color: var(--text-main);
+  background: #f1f5f9;
+}
 .live-badge {
   display: flex; align-items: center; gap: 8px;
   background: #eff6ff;
@@ -490,6 +508,7 @@ ul, ol { list-style: none; }
 
 /* ── Responsive ─────────────────────────────────── */
 @media (max-width: 768px) {
+  .sister-links { display: none; }
   .topbar { padding: 0 20px; }
   .hero { padding: 120px 20px 60px; }
   .hero h1 { font-size: 2.75rem; }
